@@ -37,7 +37,7 @@ function createOrder($cart)
                 PurchaseUnitRequestBuilder::init(
                     AmountWithBreakdownBuilder::init(
                         'USD',
-                        '100.00'
+                        '20.00'
                     )->build()
                 )->build()
             ]
